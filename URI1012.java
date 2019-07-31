@@ -12,9 +12,9 @@ public class URI1012 {
 		double b = sc.nextDouble();
 		double c = sc.nextDouble();
 		
-		System.out.println("TRIANGULO: " + String.format("%.3f", a*c));
+		System.out.println("TRIANGULO: " + String.format("%.3f", a*c/2));
 		System.out.println("CIRCULO: " + String.format("%.3f", c*c*3.14159));
-		System.out.println("TRAPEZIOO: " + String.format("%.3f", (a+b)*c/2));
+		System.out.println("TRAPEZIO: " + String.format("%.3f", (a+b)*c/2));
 		System.out.println("QUADRADO: " + String.format("%.3f", b*b));
 		System.out.println("RETANGULO: " + String.format("%.3f", a*b));
 		
